@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+.tmp-verify/
+.claude/
+node_modules/
+dist/
+.vite/

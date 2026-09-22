@@ -1,0 +1,11 @@
+{
+  "name": "elite-industry",
+  "private": true,
+  "description": "Static HTML marketing site. Zero-build. npm scripts wrap the Python static server and a Node smoke check.",
+  "scripts": {
+    "dev": "python3 -m http.server 4321",
+    "start": "python3 -m http.server 4321",
+    "check": "node scripts/check-site.js",
+    "test": "npm run check"
+  }
+}
